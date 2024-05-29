@@ -6,7 +6,7 @@ This repo contains a file, that can be included in your `.gitlab-ci.yml` to get 
 At the very top of your .gitlab-ci.yml either add or expand the `include:` section so it looks similar to this:  
 ```yaml
 include:
-  - remote: https://raw.githubusercontent.com/ambient-innovation/gitlab-retry-runners/main/gitlab-retry-runners.yaml
+  - remote: https://raw.githubusercontent.com/ambient-innovation/gitlab-retry-runners/master/gitlab-retry-runners.yaml
   # There might be more includes here, usually starting with template like the following:
   # - template: 'Workflows/Branch-Pipelines.gitlab-ci.yml'
 ```
